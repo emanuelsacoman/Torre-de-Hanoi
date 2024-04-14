@@ -4,7 +4,7 @@ Disco = NewType('Disco', int)
 
 class OrdemIncorreta(Exception):
     def __init__(self, topo: int, base: int) -> None:
-        super().__init__("Não é possível colocar um disco de tamanho %d em cima de um disco de tamanho %d" % (topo, base))
+        super().__init__("Não é possível colocar um disco de tamanho %d em cima de um discoAA de tamanho %d" % (topo, base))
 
 class Torre:
     """Classe para uma torre"""
